@@ -339,7 +339,7 @@ Signed-off-by: David Rapan <david@rapan.cz>
  #endif /* ATH11K_HAL_DESC_H */
 --- a/drivers/net/wireless/ath/ath11k/mac.c
 +++ b/drivers/net/wireless/ath/ath11k/mac.c
-@@ -10365,6 +10365,9 @@ static int __ath11k_mac_register(struct
+@@ -10456,6 +10456,9 @@ static int __ath11k_mac_register(struct
  		goto err_free_if_combs;
  	}
  
