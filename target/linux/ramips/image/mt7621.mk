@@ -3528,7 +3528,7 @@ TARGET_DEVICES += xiaomi_redmi-router-ac2100
 
 define Device/xiaoyu_xy-c5
   $(Device/dsa-migration)
-  IMAGE_SIZE := 32448k
+  IMAGE_SIZE := 65216k
   DEVICE_VENDOR := XiaoYu
   DEVICE_MODEL := XY-C5
   DEVICE_PACKAGES := kmod-ata-ahci kmod-usb3 -wpad-basic-openssl \
